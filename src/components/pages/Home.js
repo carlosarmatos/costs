@@ -1,6 +1,19 @@
+import styles from './Home.module.css';
+import savings from '../../img/savings.svg';
+import LinkButton from '../layout/LinkButton';
+
 function Home() {
 
-    return <h1>Home</h1>
+    return (
+        <section className={styles.home_container}>
+            <h1>
+                Welcome to <span>Costs!</span>
+            </h1>
+            <p>Start to manage your projects</p>
+            <LinkButton to='/newproject' text='Create project' />
+            <img src={savings} alt="Costs" />
+        </section>
+    )
 }
 
 export default Home
