@@ -63,17 +63,6 @@
       "cost": 0,
       "services": [],
       "id": 6
-    },
-    {
-      "name": "Test",
-      "budget": "2000",
-      "category": {
-        "id": "5",
-        "name": "Planning"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
     }
   ],
   "categories": [
