@@ -1,0 +1,12 @@
+.project_container {
+    padding: 2em;
+}
+
+.title_container {
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.new_project_button {
+    text-align: right;
+}
