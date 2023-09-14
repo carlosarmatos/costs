@@ -23,7 +23,7 @@ function NewProject() {
             console.log(data)
 
             // Redirect
-            navigate('/projects', { message: 'Success!' })
+            navigate('/projects', {state: { message: 'Success!' }})
           })
           .catch((err) => console.log(err));
     }
