@@ -51,7 +51,7 @@ function Project() {
                                 </div>
                             ) : (
                                 <div className={styles.project_info}>
-                                    <p>Project details</p>
+                                    <p>Form</p>
                                 </div>
                             )}
                         </div>
